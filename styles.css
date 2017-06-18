@@ -93,6 +93,12 @@ a {
 	border-top: 50px;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* text boxes color and height */
 .large-text-height {
 	height:70px;
@@ -149,22 +155,22 @@ a {
 		margin-right: auto;
 		margin-top: 60px;
 		margin-bottom: 30px;
-}
+	}
+
+	.group-container {
+	margin: auto;
+	width: 90%;
+	}
 	
 	.pocket-container {
-		float: left;
-		width: 25%;
-		margin-bottom: 30px;
-		margin: 20px;
-}
+		padding: 20px;
+		box-sizing: border-box;
+	}
 
 	.accessories-container {
-		float:left;
-		width:25%;
-		margin-bottom: 30px;
-		margin: 20px;
-}
-
+		padding: 20px;
+		box-sizing: border-box;
+	}
 	.regular-text {
 		font-size: 30px;
 		color: #ffffff;
@@ -191,6 +197,15 @@ a {
 		height: 70px;
 		font-size:15px;
 		color: #ffffff;	
+}
+	.OD-11-sub-text-height {
+		height:20px;
+		font-size:20px;
+		color: #000000;
+			
+}
+	.op-1-text-height {
+		height:20px;
 }
 
 
