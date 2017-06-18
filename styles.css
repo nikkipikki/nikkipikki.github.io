@@ -153,11 +153,9 @@ a {
 @media only screen and (min-width: 760px) {
 	.regular-image	{
 		display: block;
-		width: 40%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 60px;
-		margin-bottom: 30px;
+		width: 50%;
+		margin-top: 90px;
+		margin-bottom: 40px;
 	}
 
 	.group-container {
@@ -177,7 +175,7 @@ a {
 
 	/* text changes */
 	.regular-text {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.large-text-height {
