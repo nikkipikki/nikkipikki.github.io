@@ -146,6 +146,9 @@ a {
 	height:20px;
 }
 
+.OD-11-text-height {
+	height:20px;
+}
 /* to fit on large screen */
 @media only screen and (min-width: 760px) {
 	.regular-image	{
@@ -158,8 +161,8 @@ a {
 	}
 
 	.group-container {
-	margin: auto;
-	width: 90%;
+		margin: auto;
+		width: 90%;
 	}
 	
 	.pocket-container {
@@ -171,43 +174,49 @@ a {
 		padding: 20px;
 		box-sizing: border-box;
 	}
+
+	/* text changes */
 	.regular-text {
 		font-size: 30px;
-		color: #ffffff;
-		font-weight: normal;
-		margin-bottom: 60px;
 	}
 
 	.large-text-height {
-		height:70px;
 		font-size:15px;
-		color: #ffffff;
-}	
+		height:80px;
+	}	
+
 	.subtitle-text-height {
-		height:20px;
 		font-size:20px;
-		color: #ffffff;
-}
+	}
+
 	.small-text-height {
-		height:20px;
 		font-size:15px;
-		color: #ffffff;
-}
+	}
+
 	.blocktext-height {
-		height: 70px;
 		font-size:15px;
-		color: #ffffff;	
-}
+	}
+
 	.OD-11-sub-text-height {
-		height:20px;
-		font-size:20px;
-		color: #000000;
-			
-}
+		font-size:20px;		
+	}
+
 	.op-1-text-height {
 		height:20px;
-}
+	}
 
+	.OD-11-text-height {
+		font-size:15px;
+	}
+
+	.OD-11-small-text-height {
+		font-size:13px;
+	}
+
+	.blocktext-height {
+		font-size: 15px;
+		height: 80px;
+	}
 
 }
 
